@@ -33,7 +33,6 @@
     .sun-day320
     {
         left: 73.5%;
-
         margin-top: 47.4%;
     }
 
@@ -121,14 +120,32 @@
         padding-top: 10px;
     }
 
-    aside
-    {
-        display: none;
-    }
-
     .text-wrapper div
     {
         margin: auto;
+    }
+
+    .rigth-aside_whr
+    {
+        width: 18%;
+        margin-left: 2%;
+        text-align: center;
+    }
+
+    .rigth-aside_whr p:nth-child(1)
+    {
+        font-size: 5.25rem;
+    }
+
+    .rigth-aside_whr p:nth-child(2)
+    {
+        font-size: 1.125rem;
+        line-height: 31px;
+    }
+
+    .rigth-aside_whr p:nth-child(3)
+    {
+        font-size: .875rem;
     }
 
     .degree-36_6
@@ -189,6 +206,7 @@
         display: block;
         width: 28px;
         height: 28px;
+
         background-size: cover;
     }
 
@@ -274,8 +292,7 @@
     {
         left: 80%;
 
-        margin-top: 46.7%;
-        /* display: none; */
+        margin-top: 47.7%;
     }
 
     .sun-day320__text
@@ -293,7 +310,6 @@
     {
         font-size: 1.125rem;
         line-height: 20px;
-
         width: 100px;
         margin-top: 10px;
     }
@@ -316,11 +332,52 @@
         height: 48px;
     }
 
-    .degree-36_6
+    .text-wrapper
     {
-        font-size: 2.875rem;
+        flex-direction: column;
     }
 
+    .list-five-sourses
+    {
+        margin-bottom: 20px;
+    }
+
+    .rigth-aside_whr
+    {
+        width: auto;
+        margin: 0 auto 25px;
+        padding: 15px;
+
+        border: 1px solid #ddd;
+    }
+
+
+    .rigth-aside_whr p:nth-child(1)
+    {
+        font-size: 4rem;
+        padding: 0;
+    }
+
+    .rigth-aside_whr p:nth-child(2)
+    {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    .rigth-aside_whr p:nth-child(3)
+    {
+        font-size: .75rem;
+    }
+
+    .degree-36_6
+    {
+        font-size: 2.4rem;
+    }
+
+    .hidden-959
+    {
+        display: none;
+    }
 
     .table-header
     {
@@ -332,9 +389,9 @@
         max-width: 748px;
     }
 
-    .social-nets--modifier.social-nets
+    .copyright
     {
-        width: 14.3%;
+        line-height: 18px;
     }
 }
 
@@ -344,6 +401,7 @@
     {
         display: none;
     }
+
     header
     {
         height: 50px;
@@ -353,19 +411,15 @@
 
     .logo
     {
-        width: 70px;
-        height: 100%;
-        align-items: center;
-        order: -2;
+        width: 65px;
     }
+
     .title-logo
     {
-        font-size: .7rem;
-        line-height: 30px;
-        margin-left: -17.5%;
-        text-align: center;
-        align-items: flex-end;
-        order: -1;
+        font-size: .58rem;
+        position: absolute;
+        top: 1%;
+        left: 2%;
     }
 
     .hidden-480
@@ -377,8 +431,15 @@
     {
         font-size: .75rem;
         font-weight: bold;
+
         width: 90px;
-        height: 50%;
+        margin-left: 2%;
+    }
+
+    .tel::before
+    {
+        margin-top: 0;
+        margin-left: -2.5%;
     }
 
     .feedback
@@ -417,7 +478,6 @@
     .discount
     {
         bottom: 70%;
-
         width: 100px;
         height: 100px;
     }
@@ -451,7 +511,7 @@
     {
         width: 50%;
         width: 45%;
-        margin-top: 64%;
+        margin-top: 58%;
         margin-left: -5px;
         padding-left: 0;
     }
@@ -469,6 +529,7 @@
 
     .hotel-stars .fa-usd
     {
+        margin-top: 25px;
         padding-left: 70px;
     }
 
@@ -485,7 +546,8 @@
     .aquamarine__title
     {
         max-width: 210px;
-        padding-bottom: 30px;
+        margin-bottom: 65px;
+        padding-bottom: 0;
     }
 
     .sun-day320
@@ -500,7 +562,9 @@
         margin-top: 50%;
         margin-left: 73.2%;
         padding-top: 10px;
+
         text-align: center;
+
         border-radius: 50%;
         background-color: #fff;
     }
@@ -555,11 +619,19 @@
         flex-direction: column;
         width: 100%;
         margin-bottom: 40px;
+
+        align-items: center;
+    }
+
+    .tour-list > :nth-of-type(n)
+    {
+        width: 100%;
     }
 
     .silk-road,
     .jamping
     {
+        max-width: 100%;
         border: none;
     }
 
@@ -581,6 +653,35 @@
         width: 28px;
         margin-top: 34px;
         margin-left: -32px;
+    }
+
+    .rigth-aside_whr
+    {
+        width: auto;
+        margin: 0 auto 15px;
+        padding: 10px;
+
+        border: 1px solid #ddd;
+    }
+
+
+    .rigth-aside_whr p:nth-child(1)
+    {
+        font-size: 2rem;
+        padding: 0;
+        letter-spacing: -2px;
+    }
+
+    .rigth-aside_whr p:nth-child(2)
+    {
+        font-size: .75rem;
+        line-height: 10px;
+    }
+
+    .rigth-aside_whr p:nth-child(3)
+    {
+        font-size: .75rem;
+        line-height: 15px;
     }
 
     .degree-36_6
@@ -620,15 +721,14 @@
     blockquote
     {
         font-size: .75rem;
-
         margin-left: 10%;
     }
 
     blockquote::before
     {
         width: 3px;
-        height: 120px;
-        margin-top: 10px;
+        height: 100%;
+        margin-top: auto;
     }
 
     .table-header
@@ -641,10 +741,14 @@
         width: 460px;
     }
 
+    #table-chlorophyll
+    {
+        margin: auto;
+    }
+
     .table-header
     {
         line-height: 36px;
-
         height: 36px;
         margin-bottom: 15px;
         padding-right: 10px;
@@ -670,6 +774,7 @@
     {
         font-size: .75rem;
         width: 160px;
+
         -webkit-justify-content: flex-start;
                 justify-content: flex-start;
         -webkit-align-items: center;
@@ -689,14 +794,31 @@
         margin-bottom: 20px;
     }
 
-    .social-nets--modifier
+    footer
     {
-        display: none;
+        margin-bottom: 10px;
+        padding-right: 5px;
+    }
+
+    .social-nets--modifier.social-nets
+    {
+        width: 12.3%;
+        margin-top: auto;
+        margin-right: 4%;
+    }
+
+    .social-nets--modifier span:nth-of-type(3)
+    {
+        display: inline-block;
+        margin: auto 10% auto;
     }
 
     .copyright
     {
         line-height: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
         text-align: center;
     }
 }
@@ -712,17 +834,23 @@
 
     .logo
     {
-        width: 60px;
-        height: 30px;
+        width: 40px;
+        height: 22px;
         margin-top: 15px;
         align-items: center;
     }
+
     .tel
     {
         font-size: .7rem;
         width: 120px;
         height: 30%;
         margin-left: -30px;
+    }
+
+    .tel::before
+    {
+        margin-left: -3.3%;
     }
 
     .title-logo
@@ -753,7 +881,6 @@
     {
         overflow: visible;
         cursor: pointer;
-
         color: #00008b;
     }
 
@@ -798,13 +925,13 @@
 
     .aquamarine
     {
-        margin-bottom: 10px;
+        margin-bottom: -20px;
     }
 
     .hotel-stars
     {
         width: 90%;
-        margin-top: 64%;
+        margin-top: 58%;
         margin-left: -5px;
         padding-left: 0;
     }
@@ -838,16 +965,15 @@
 
     .aquamarine__title
     {
-        max-width: 150px;
-        padding-bottom: 20px;
+        max-width: 145px;
     }
 
     .sun-day320__text
     {
         width: 70px;
         height: 70px;
-        margin-top: 47.5%;
-        margin-left: 66.2%;
+        margin-top: 48%;
+        margin-left: 75.2%;
         padding-top: 8px;
     }
 
@@ -957,19 +1083,63 @@
     blockquote
     {
         font-size: .7rem;
-        margin-left: 7%;
     }
 
-    blockquote::before
+    .table-header
     {
-        width: 2px;
-        height: 120px;
-        margin-top: 10px;
+        max-width: 300px;
+    }
+
+    .group
+    {
+        max-width: 300px;
     }
 
     #table-chlorophyll
     {
-        display: none;
+        margin: auto;
+    }
+
+    .table-header
+    {
+        line-height: 30px;
+        height: 30px;
+        margin-bottom: 15px;
+        padding-right: 0;
+        padding-left: 28px;
+        -webkit-justify-content: center;
+                justify-content: center;
+    }
+
+    .table-header th
+    {
+        font-size: .53rem;
+        width: 24.5%;
+    }
+
+    .group td:first-child
+    {
+        font-size: .53rem;
+        width: 10%;
+        padding-left: 7px;
+    }
+
+    .group-1 td:nth-of-type(n+2),
+    .group-2 td:nth-of-type(n+2),
+    .group-3 td:nth-of-type(n+2)
+    {
+        font-size: .52rem;
+        width: 21%;
+
+        -webkit-align-items: center;
+                align-items: center;
+    }
+
+    .group-1 td:nth-of-type(n+5),
+    .group-2 td:nth-of-type(n+5),
+    .group-3 td:nth-of-type(n+5)
+    {
+        margin-right: 0;
     }
 
     .list-five-sourses
@@ -978,9 +1148,34 @@
         margin-bottom: 20px;
     }
 
+    footer
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .social-nets--modifier.social-nets
+    {
+        line-height: 25px;
+        width: 25.9%;
+        height: 25px;
+        margin: auto;
+
+        cursor: default;
+    }
+
+    .social-nets--modifier .fa-link
+    {
+        display: none;
+    }
+
+    .social-nets--modifier .instagram-logo
+    {
+        margin-top: -2px;
+    }
+
     .copyright
     {
-        line-height: 18px;
-        text-align: center;
+        width: 100%;
     }
 }

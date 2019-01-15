@@ -1,7 +1,9 @@
 body
 {
     font-family: 'Trebuchet MS', sans-serif;
+    width: 100%;
 }
+
 /* Общие стили >>> start */
 .aquamarine__title,
 .silk-road__title,
@@ -18,17 +20,18 @@ body
 .container
 {
     max-width: 1400px;
+    margin: auto;
 }
 
 .content
 {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
     max-width: 1060px;
+    margin: auto;
     padding-right: 10px;
     padding-left: 10px;
-    margin: auto;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 header
@@ -78,6 +81,15 @@ header
     margin-right: 2.5%;
 }
 
+.tel::before
+{
+    font-family: 'FontAwesome';
+    position: absolute;
+    margin-top: -2px;
+    margin-left: -3.5%;
+    content: '\f2a0';
+}
+
 .feedback
 {
     font-family: Arial;
@@ -103,7 +115,8 @@ header
             align-items: center;
 }
 
-.fa-link {
+.fa-link
+{
     display: none;
 }
 
@@ -149,7 +162,8 @@ img
     width: 100%;
 }
 
-.hotel {
+.hotel
+{
     position: relative;
     margin-bottom: 38px;
 }
@@ -168,7 +182,7 @@ img
 
 .hotel-stars
 {
-    position:absolute;
+    position: absolute;
     top: 0;
     display: inline-block;
     width: 32%;
@@ -177,7 +191,8 @@ img
     list-style: none;
 }
 
-.hotel-stars :nth-child(6) {
+.hotel-stars :nth-child(6)
+{
     padding-left: 17px;
 }
 
@@ -199,12 +214,12 @@ img
     display: inline-block;
     letter-spacing: .1875rem;
 }
+
 /*Плавающий банер >>>start*/
 .discount
 {
     position: absolute;
     z-index: 1;
-    /* top: 0; */
     bottom: 26.5%;
     left: 3.5%;
     width: 250px;
@@ -219,11 +234,11 @@ img
 .discount-content
 {
     display: flex;
+            flex-direction: column;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
-            flex-direction: column;
-       -webkit-align-items: center;
-               align-items: center;
+    -webkit-align-items: center;
+            align-items: center;
 }
 
 .discount__header
@@ -236,7 +251,7 @@ img
 
 .discount__text-code
 {
-    font-size: 0.875rem;
+    font-size: .875rem;
     text-transform: uppercase;
 }
 
@@ -248,15 +263,16 @@ img
     color: #fff;
     background-color: #000;
 }
+
 /*Плавающий банер <<<end*/
 
 .sun-day320
 {
     position: absolute;
+    z-index: 1;
     top: 0;
     left: 70%;
-    z-index: 1;
-    margin-top:47%;
+    margin-top: 47%;
     -webkit-transform: translateX(-110px);
        -moz-transform: translateX(-110px);
         -ms-transform: translateX(-110px);
@@ -268,7 +284,7 @@ img
 {
     position: absolute;
     z-index: 2;
-    margin-top:50.3%;
+    margin-top: 50.3%;
     margin-left: 75.3%;
 }
 
@@ -342,11 +358,11 @@ img
 
 .tour-list
 {
+    position: relative;
     display: flex;
     margin-bottom: 60px;
     -webkit-justify-content: space-between;
             justify-content: space-between;
-    position: relative;
 }
 
 .silk-road,
@@ -356,7 +372,8 @@ img
 }
 
 .jamping .fa-usd,
-.silk-road .fa-usd {
+.silk-road .fa-usd
+{
     margin-top: 3px;
 }
 
@@ -461,11 +478,10 @@ img
 {
     font-size: 1.25rem;
     line-height: 25px;
-    width: 225px;
+    width: auto;
     margin: 0;
     color: #777;
 }
-
 
 .main-text
 {
@@ -478,7 +494,6 @@ img
     margin-bottom: -8px;
     padding-top: 12px;
 }
-
 
 .main-text p:first-child
 {
@@ -511,6 +526,7 @@ blockquote::before
     height: 120px;
     margin-top: -10px;
     content: '';
+
     background-color: #00bff3;
 }
 
@@ -524,6 +540,7 @@ blockquote::before
 {
     padding-bottom: 18px;
 }
+
 /*Текст <<< end */
 
 .table-header
@@ -543,6 +560,7 @@ blockquote::before
 .table-header th
 {
     font-size: .875rem;
+
     width: 160px;
 }
 
@@ -598,7 +616,13 @@ blockquote::before
     list-style: none;
 }
 
-.list-five-sourses li {
+.list-five-sourses :nth-child(n)::before
+{
+    content: '— ';
+}
+
+.list-five-sourses li
+{
     margin-left: -32px;
 }
 
@@ -610,13 +634,12 @@ footer
     border-top: 1px solid #777;
     -webkit-justify-content: space-between;
             justify-content: space-between;
-    -webkit-align-items: center;
-            align-items: center;
 }
 
 .social-nets--modifier.social-nets
 {
     width: 11.3%;
+    margin-top: auto;
 }
 
 .social-nets--modifier .fa-facebook
@@ -640,6 +663,7 @@ footer
     font-family: Arial;
     font-size: .75rem;
     line-height: 48px;
+    width: 60%;
 }
 
 .copyright a
@@ -648,8 +672,9 @@ footer
     color: #00bff3;
 }
 
-.autor {
-    font-family: "Trebuchet MS";
+.autor
+{
+    font-family: 'Trebuchet MS';
     font-style: italic;
-    color: #007700;
+    color: #070;
 }
